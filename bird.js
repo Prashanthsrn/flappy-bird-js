@@ -13,7 +13,8 @@ class Bird {
 		//	Drawing player (bird) sprite
 		colorCircle(this.x, this.y, this.r, this.colour);
 	}
-
+	
+	// function to move the bird 
 	move(){
 		this.y += this.velY;
 		this.velY += this.accY;
